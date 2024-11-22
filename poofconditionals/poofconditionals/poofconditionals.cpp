@@ -2,42 +2,7 @@
 //
 
 #include <iostream>
-using namespace std;
-
-    /*
-       Cases
-       - camelCase
-           - camelLongerNameCase
-       - snake_Camel_Case
-       - PascalCase
-           - PascalLongerNameCase
-       - Snake_Pascal_Case
-       - snake_lower_case
-       - SNAKE_SCREAMING_CASE
-
-       1. Naming Convention
-           variable - camelCase (-10%)
-           constant - SNAKE_SCREAMING_CASE (-10%)
-           function - PascalCase (-10%)
-       2. Naming should make sense & Use only global abbreviation (-10%)
-       3. Code Construction (-2%)
-           {
-               constant variable
-               variable
-
-               code block
-           }
-       4. Refrain using Global Variable (automatic 0)
-   */
-
-   // Demo Project
-   // Sari-Sari Store, User can select from all products they want to buy then total and pay it/kick out of the store
-   // Topics Covered are Input, Output and Conditionals
-
-#include <iostream>
     using namespace std;
-
-    // Global variable sample: Global variable to set value as 5
     const int MAX_SELECTION = 5;
     int maxSelection = 5;
 #define MaxSelection 5 
